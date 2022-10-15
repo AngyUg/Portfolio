@@ -101,11 +101,10 @@ p {
     text-align: center;
     font-size: 10px;
   }
-  .button-contact {
-    font-size: 5px;
-  }
+
+  .button-contact,
   .button-about {
-    font-size: 5px;
+    font-size: 10px;
   }
   .images-width {
     width: 100px auto;
