@@ -89,6 +89,20 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+.text-discription {
+  background: #f8f6fd;
+  border-radius: 5%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.row {
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 @media (max-width: 576px) {
   .class-h-2 {
     text-align: center;
@@ -125,4 +139,7 @@ p {
   body {
     padding-top: 10%;
   }
+}
+.container {
+  padding-bottom: 5%;
 }
