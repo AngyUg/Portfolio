@@ -5,7 +5,8 @@
 }
 
 body {
-  padding-top: 12%;
+  /* padding-top: 12%;*/
+  padding-top: 5%;
   max-width: 800px auto;
 }
 
@@ -120,5 +121,8 @@ p {
   .pre-nav,
   .homepage-link {
     margin-top: 20px;
+  }
+  body {
+    padding-top: 10%;
   }
 }
