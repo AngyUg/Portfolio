@@ -126,7 +126,8 @@ p {
   .images-width {
     width: 100px auto;
   }
-  .text-discription {
+  .text-discription,
+  .weather-page {
     font-size: 10px;
 
     text-align: center;
