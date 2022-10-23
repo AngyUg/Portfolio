@@ -93,19 +93,28 @@ p {
 .text-discription {
   background: #f0fff6d1;
   border-radius: 5%;
-  height: 10em;
+  height: 10em auto;
   display: flex;
   align-items: center;
   justify-content: center;
   padding-left: 7px;
   padding-right: 7px;
 }
+.weather-page {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+}
 .row {
   padding-top: 1%;
   padding-bottom: 1%;
 }
-
-@media (max-width: 576px) {
+.img-about {
+  max-width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+@media (max-width: 900px) {
   .class-h-2 {
     text-align: center;
     font-size: 15px;
