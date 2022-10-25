@@ -135,10 +135,10 @@ p {
   .images-width {
     width: 100px auto;
   }
+
   .text-discription,
   .weather-page {
     font-size: 10px;
-
     text-align: center;
   }
   .pre-main {
@@ -176,5 +176,61 @@ p {
   color: #000a09db;
   border: 3px solid #000a09db;
   text-align: center;
-  box-shadow: 80px;
+}
+
+#about-h-1 {
+  font-family: "Merienda One";
+  font-size: 26px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+#about-h-3 {
+  font-family: "Merienda One";
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+#about-me-des {
+  font-family: "Merienda One";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  /*background: #e9e8ff71 !important;*/
+  background: none !important;
+}
+#contact-about {
+  font-family: Montez;
+  font-size: 29px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+#logo-ab {
+  opacity: 91%;
+  border-radius: 2%;
+}
+#nv-bar-home,
+#nv-bar-about-me,
+#nv-bar-contact-me {
+  font-family: Sancreek;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  color: rgba(0, 0, 0, 0.5) !important;
+}
+#nv-bar-home:hover,
+#nv-bar-about-me:hover,
+#nv-bar-contact-me:hover {
+  color: #232c2b !important;
 }
