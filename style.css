@@ -51,20 +51,53 @@ p {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 10px 15px;
   text-decoration: none;
   text-transform: capitalize;
 }
 
 .contact-link {
-  background: var(--primary-color);
+  background: rgb(33, 37, 41);
+  background: radial-gradient(
+    circle,
+    rgba(33, 37, 41, 1) 8%,
+    rgba(33, 37, 41, 1) 64%,
+    rgba(33, 37, 41, 1) 70%,
+    rgba(100, 103, 106, 1) 87%,
+    rgba(98, 101, 104, 1) 93%,
+    rgba(100, 103, 106, 1) 96%
+  );
   box-shadow: var(--box-shadow);
   color: white;
 }
+/**/
+
+.button-contact:hover {
+  text-align: center;
+  color: white;
+  font-family: Chewy;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+.button-about:hover {
+  text-align: center;
+  color: #212529;
+  font-family: Chewy;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+/**/
 
 .about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  color: #212529;
+  border: 2px solid #212529;
+  background: white;
 }
 
 .homepage-link {
@@ -148,11 +181,17 @@ p {
 
 #about-h-1 {
   font-family: "Merienda One";
-  font-size: 26px;
+  font-size: 30px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 80px;
+
+  text-shadow: 0 1px 0 #cac8c8, 0 2px 0 #c7c5c5, 0 3px 0 #bbbaba,
+    0 4px 0 #87b6b6, 0 5px 0 #a9a6a6, 0 6px 1px rgba(0, 0, 0, 0.2),
+    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 3px 5px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 10px 10px rgba(0, 0, 0, 0.3), 0 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 #about-h-3 {
