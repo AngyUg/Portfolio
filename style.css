@@ -114,56 +114,24 @@ p {
   height: auto;
   box-sizing: border-box;
 }
-@media (max-width: 900px) {
-  .class-h-2 {
-    text-align: center;
-    font-size: 15px;
-  }
-  .class-h-1 {
-    text-align: center;
-    font-size: 20px;
-  }
-  .class-h-3 {
-    text-align: center;
-    font-size: 10px;
-  }
 
-  .button-contact,
-  .button-about {
-    font-size: 10px;
-  }
-  .images-width {
-    width: 100px auto;
-  }
-
-  .text-discription,
-  .weather-page {
-    font-size: 10px;
-    text-align: center;
-  }
-  .pre-main {
-    margin-top: 0px;
-  }
-  .pre-nav,
-  .homepage-link {
-    margin-top: 20px;
-  }
-  body {
-    padding-top: 10%;
-  }
-}
 .container {
   padding-bottom: 5%;
 }
 #contacts {
-  background: #6b63ff26;
+  background: rgb(191, 201, 212);
+  background: radial-gradient(
+    circle,
+    rgba(191, 201, 212, 1) 29%,
+    rgba(103, 101, 110, 1) 51%,
+    rgba(191, 201, 212, 1) 60%,
+    rgba(86, 24, 96, 1) 78%,
+    rgba(86, 24, 96, 1) 92%,
+    rgba(23, 7, 13, 1) 97%
+  );
   padding-bottom: 2%;
   padding-top: 2%;
   border-radius: 1%;
-}
-
-.linkedin {
-  padding-top: 15px;
 }
 
 #loggi {
@@ -233,4 +201,43 @@ p {
 #nv-bar-about-me:hover,
 #nv-bar-contact-me:hover {
   color: #232c2b !important;
+}
+
+@media (max-width: 900px) {
+  .class-h-2 {
+    text-align: center;
+    font-size: 15px;
+  }
+  .class-h-1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .class-h-3 {
+    text-align: center;
+    font-size: 10px;
+  }
+
+  .button-contact,
+  .button-about {
+    font-size: 10px;
+  }
+  .images-width {
+    width: 100px auto;
+  }
+
+  .text-discription,
+  .weather-page {
+    font-size: 10px;
+    text-align: center;
+  }
+  .pre-main {
+    margin-top: 0px;
+  }
+  .pre-nav,
+  .homepage-link {
+    margin-top: 20px;
+  }
+  body {
+    padding-top: 10%;
+  }
 }
