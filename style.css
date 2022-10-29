@@ -308,3 +308,7 @@ p {
     padding-top: 10%;
   }
 }
+
+body {
+  background: rgba(49, 248, 228, 0.182) !important;
+}
