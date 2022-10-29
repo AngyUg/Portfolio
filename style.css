@@ -90,11 +90,11 @@ p {
 }
 /**/
 
-.button-contact:hover {
+.button-weather-pro:hover {
   text-align: center;
   color: white;
 }
-.button-about:hover {
+.button-impala-love:hover {
   text-align: center;
   color: #212529;
 }
@@ -133,15 +133,15 @@ p {
   padding-left: 7px;
   padding-right: 7px;
 }
-.weather-page {
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 7px;
-}
+
 .row {
   padding-top: 1%;
   padding-bottom: 1%;
 }
+#big-imgs {
+  border: 1px solid #fefdff !important;
+}
+
 .img-about {
   max-width: 100%;
   height: auto;
@@ -149,7 +149,7 @@ p {
 }
 
 .container {
-  padding-bottom: 5%;
+  padding-bottom: 1%;
 }
 #contacts {
   background: rgb(191, 201, 212);
@@ -256,6 +256,25 @@ p {
   color: #232c2b !important;
 }
 
+.weather-page {
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 7px;
+}
+
+#skills-links {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: overline;
+  font-family: "Sue Ellen Francisco";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+  margin-top: 20px;
+}
+
 @media (max-width: 670px) {
   .class-h-2 {
     text-align: center;
@@ -276,8 +295,7 @@ p {
     width: 100px auto;
   }
 
-  .text-discription,
-  .weather-page {
+  .text-discription {
     font-size: 10px;
     text-align: center;
   }
