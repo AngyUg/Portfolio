@@ -1,51 +1,45 @@
-:root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-}
-
 body {
   /* padding-top: 12%;*/
   padding-top: 5%;
   max-width: 800px auto;
+  background: linear-gradient(90deg, #9775f3ac, #00ddce6c, #e8b23d94)
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ !important;
 }
 
-.about-paragraphs p {
-  margin: 10px;
-}
-
-h1 {
-  font-size: 96px;
+#about-h-1 {
   text-align: center;
   margin: 0;
+  font-family: "Merienda One";
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 80px;
+
+  text-shadow: 0 1px 0 #cac8c8, 0 2px 0 #c7c5c5, 0 3px 0 #bbbaba,
+    0 4px 0 #87b6b6, 0 5px 0 #a9a6a6, 0 6px 1px rgba(0, 0, 0, 0.2),
+    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
+    0 3px 5px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.2),
+    0 10px 10px rgba(0, 0, 0, 0.3), 0 20px 20px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-  font-size: 48px;
-  text-align: center;
-  margin: 0;
-}
-
-h3 {
-  font-size: 24px;
+#about-h-3 {
   opacity: 0.7;
   text-align: center;
   margin: 0;
-}
 
-p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
+  font-family: "Merienda One";
   font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 50px;
 }
 
 .navigation-links {
   display: flex;
   margin-top: 40px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .navigation-links a {
@@ -56,7 +50,7 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link {
+.button-weather-pro {
   background: rgb(33, 37, 41);
   background: radial-gradient(
     circle,
@@ -76,8 +70,9 @@ p {
   font-variant: normal;
   font-weight: 400;
   line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-.about-link {
+.button-impala-love {
   color: #212529;
   border: 2px solid #212529;
   background: white;
@@ -87,8 +82,8 @@ p {
   font-variant: normal;
   font-weight: 400;
   line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
-/**/
 
 .button-weather-pro:hover {
   text-align: center;
@@ -97,18 +92,6 @@ p {
 .button-impala-love:hover {
   text-align: center;
   color: #212529;
-}
-/**/
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
 }
 
 .email-link {
@@ -123,7 +106,22 @@ p {
   text-decoration: underline;
 }
 
-.text-discription {
+.img-foots {
+  opacity: 60%;
+  height: 150px;
+}
+
+#about-me-des {
+  font-family: "Merienda One";
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: justify;
+  /*background: #e9e8ff71 !important;*/
+  background: none !important;
+
   background: #f0fff6d1;
   border-radius: 5%;
   height: 10em auto;
@@ -140,12 +138,6 @@ p {
 }
 #big-imgs {
   border: 1px solid #fefdff !important;
-}
-
-.img-about {
-  max-width: 100%;
-  height: auto;
-  box-sizing: border-box;
 }
 
 .container {
@@ -170,15 +162,16 @@ p {
   /* border-bottom-right-radius: 16px;
   border-bottom-left-radius: 16px;*/
 }
+#comunication {
+  padding-top: 30px;
+  padding-bottom: 0px;
+}
 #ua {
   position: absolute;
   top: 28%;
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 70%;
-}
-.pre-main {
-  justify-content: space-evenly;
 }
 
 #loggi {
@@ -193,41 +186,10 @@ p {
   text-align: center;
 }
 
-#about-h-1 {
-  font-family: "Merienda One";
-  font-size: 30px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 80px;
-
-  text-shadow: 0 1px 0 #cac8c8, 0 2px 0 #c7c5c5, 0 3px 0 #bbbaba,
-    0 4px 0 #87b6b6, 0 5px 0 #a9a6a6, 0 6px 1px rgba(0, 0, 0, 0.2),
-    0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1),
-    0 3px 5px rgba(0, 0, 0, 0.1), 0 5px 10px rgba(0, 0, 0, 0.2),
-    0 10px 10px rgba(0, 0, 0, 0.3), 0 20px 20px rgba(0, 0, 0, 0.1);
-}
-
-#about-h-3 {
-  font-family: "Merienda One";
-  font-size: 18px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 700;
-  line-height: 50px;
-}
-#about-me-des {
-  font-family: "Merienda One";
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 400;
-  line-height: 30px;
-  text-align: justify;
-  /*background: #e9e8ff71 !important;*/
-  background: none !important;
-}
 #contact-about {
+  text-align: center;
+  margin: 0;
+
   font-family: Montez;
   font-size: 29px;
   font-style: normal;
@@ -235,6 +197,7 @@ p {
   font-weight: 700;
   line-height: 26.4px;
 }
+
 #logo-ab {
   opacity: 91%;
   border-radius: 2%;
@@ -256,11 +219,11 @@ p {
   color: #232c2b !important;
 }
 
-.weather-page {
-  padding-left: 7px;
-  padding-right: 7px;
-  padding-top: 7px;
-}
+/*.desig-links {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+}*/
 
 #skills-links {
   display: flex;
@@ -273,6 +236,9 @@ p {
   font-weight: 700;
   line-height: 15.4px;
   margin-top: 20px;
+}
+.desig-links:hover {
+  color: #212529 !important;
 }
 
 @media (max-width: 670px) {
@@ -296,7 +262,6 @@ p {
   }
 
   .text-discription {
-    font-size: 10px;
     text-align: center;
   }
   .pre-main {
@@ -322,12 +287,10 @@ p {
     padding-top: 2%;
     border-radius: 1%;
   }
+  #contact-about {
+    margin-top: 10px;
+  }
   body {
     padding-top: 10%;
   }
-}
-
-body {
-  background: linear-gradient(90deg, #9775f3ac, #00ddce6c, #e8b23d94)
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ !important;
 }
