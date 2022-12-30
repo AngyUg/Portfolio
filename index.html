@@ -125,13 +125,38 @@
       </div>
 
       <div class="navigation-links pre-main">
-        <a
-          href="https://ug-weather-pro.netlify.app/"
-          class="button-weather-pro"
-          title="ma 🌦"
-          target="_blank"
-          >Weather-pro</a
-        >
+        <div class="dropdown">
+          <button
+            class="btn-lg btn-secondary dropdown-toggle button-weather-pro"
+            type="button"
+            id="dropdownMenuButton1"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Weather
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li>
+              <a
+                href="https://my-weater-app-react.netlify.app/"
+                class="dropdown-item"
+                title="react 🌦"
+                target="_blank"
+                >My Weather in React</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://ug-weather-pro.netlify.app/"
+                class="dropdown-item"
+                title="pro 🌦"
+                target="_blank"
+                >Weather Pro</a
+              >
+            </li>
+          </ul>
+        </div>
+
         <a
           href="https://impala-pro.netlify.app/"
           class="button-impala-love"

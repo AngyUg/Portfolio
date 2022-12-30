@@ -83,6 +83,7 @@ body {
   font-weight: 400;
   line-height: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 4px !important;
 }
 
 .button-weather-pro:hover {
@@ -92,6 +93,45 @@ body {
 .button-impala-love:hover {
   text-align: center;
   color: #212529;
+}
+
+.dropdown {
+  margin: 20px !important;
+  font-size: 20px !important;
+  font-style: normal !important;
+  font-variant: normal !important;
+  font-weight: 400 !important;
+  line-height: 20px !important;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  width: 122px !important;
+  height: 45px !important;
+  background: rgb(33, 37, 41);
+  background: radial-gradient(
+    circle,
+    rgba(33, 37, 41, 1) 8%,
+    rgba(33, 37, 41, 1) 64%,
+    rgba(33, 37, 41, 1) 70%,
+    rgba(100, 103, 106, 1) 87%,
+    rgba(98, 101, 104, 1) 93%,
+    rgba(100, 103, 106, 1) 96%
+  );
+  box-shadow: var(--box-shadow);
+  color: white;
+
+  font-family: "Lobster Two";
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.dropdown-item {
+  margin-left: 0px !important;
+  margin-right: 1px !important;
 }
 
 .email-link {
